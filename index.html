@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alternativa Contabilidade — Contabilidade estratégica para empresas que querem crescer. Especialistas em contabilidade empresarial, planejamento tributário e gestão financeira.">
+  <meta name="keywords" content="contabilidade, empresa, planejamento tributário, abertura de empresa, departamento pessoal">
+  <title>Alternativa Contabilidade — Contabilidade estratégica para empresas</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mobileStyles.css">
+  <!-- Styles -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+
+  <!-- Script -->
+  <script src="js/menu.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animation.js" defer></script>
+  <script src="js/expansible.js" defer></script>
+  <!-- Script -->
+</head>
+<body>
+
+<!-- Nav -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <svg class="nav-logo-mark" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="36" height="36" rx="6" fill="#C61A20"/>
+      <path d="M8 26L14 10L18 20L22 10L28 26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="nav-logo-text">
+      <span>Alternativa</span>
+      <span>Contabilidade</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#processo">Como trabalhamos</a></li>
+    <li><a href="#depoimentos">Clientes</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="https://wa.me/5500000000000" class="nav-cta">Falar no WhatsApp</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Menu mobile -->
+<div class="menu-overlay" id="menuOverlay">
+  <div class="menu-panel">
+    <a href="#" class="nav-logo">
+      <svg class="nav-logo-mark" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="6" fill="#C61A20"/>
+        <path d="M8 26L14 10L18 20L22 10L28 26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="nav-logo-text">
+        <span>Alternativa</span>
+        <span>Contabilidade</span>
+      </div>
+    </a>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#processo">Como trabalhamos</a></li>
+      <li><a href="#depoimentos">Clientes</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="https://wa.me/5500000000000">Falar no WhatsApp</a></li>
+    </ul>
+  </div>
+</div>
+
+<section id="hero">
+  <!-- Background lines SVG -->
+  <svg class="hero-bg-lines" viewBox="0 0 1400 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gline1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#C61A20" stop-opacity="0.15"/>
+        <stop offset="100%" stop-color="#C61A20" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <line x1="0" y1="800" x2="700" y2="0" stroke="rgba(198,26,32,0.06)" stroke-width="1"/>
+    <line x1="200" y1="800" x2="900" y2="0" stroke="rgba(198,26,32,0.05)" stroke-width="1"/>
+    <line x1="-200" y1="800" x2="500" y2="0" stroke="rgba(198,26,32,0.04)" stroke-width="1"/>
+    <circle cx="1100" cy="400" r="300" fill="rgba(198,26,32,0.04)"/>
+    <circle cx="1100" cy="400" r="200" fill="rgba(198,26,32,0.03)"/>
+  </svg>
+
+  <div class="hero-left">
+    <div class="hero-eyebrow reveal">
+      <div class="hero-eyebrow-line"></div>
+      <span>Contabilidade estratégica</span>
+    </div>
+    <h1 class="hero-title reveal reveal-delay-1">
+      Contabilidade<br>para empresas<br>que querem<br><em>crescer.</em>
+    </h1>
+    <p class="hero-sub reveal reveal-delay-2">
+      Cuidamos da sua contabilidade, fiscal, folha e gestão financeira para que você foque no crescimento do seu negócio.
+    </p>
+    <div class="hero-actions reveal reveal-delay-3">
+      <a href="#cta-final" class="btn-primary">
+        Solicitar Proposta
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://wa.me/5500000000000" class="btn-outline-white">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.125 1.529 5.857L0 24l6.306-1.501A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.021-1.377l-.36-.214-3.732.889.889-3.637-.234-.374A9.8 9.8 0 012.182 12C2.182 6.584 6.584 2.182 12 2.182S21.818 6.584 21.818 12 17.416 21.818 12 21.818z"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <!-- Composição gráfica abstrata -->
+    <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-visual reveal reveal-delay-2" style="width:100%;max-width:480px;">
+      <!-- Grade base -->
+      <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="480" height="480" fill="url(#grid)"/>
+
+      <!-- Forma principal - gráfico de crescimento estilizado -->
+      <path d="M60 380 L120 310 L180 340 L240 220 L300 260 L360 140 L420 100" stroke="#C61A20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+      <path d="M60 380 L120 310 L180 340 L240 220 L300 260 L360 140 L420 100 L420 380 Z" fill="url(#heroGrad)" opacity="0.12"/>
+      <defs>
+        <linearGradient id="heroGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#C61A20" stop-opacity="0.6"/>
+          <stop offset="100%" stop-color="#C61A20" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Pontos de dados -->
+      <circle cx="120" cy="310" r="5" fill="#C61A20"/>
+      <circle cx="180" cy="340" r="5" fill="rgba(198,26,32,0.5)"/>
+      <circle cx="240" cy="220" r="6" fill="#C61A20"/>
+      <circle cx="300" cy="260" r="5" fill="rgba(198,26,32,0.5)"/>
+      <circle cx="360" cy="140" r="6" fill="#C61A20"/>
+      <circle cx="420" cy="100" r="8" fill="#C61A20"/>
+      <circle cx="420" cy="100" r="16" fill="rgba(198,26,32,0.15)"/>
+
+      <!-- Linhas de referência horizontais -->
+      <line x1="60" y1="120" x2="440" y2="120" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 6"/>
+      <line x1="60" y1="200" x2="440" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 6"/>
+      <line x1="60" y1="280" x2="440" y2="280" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 6"/>
+      <line x1="60" y1="360" x2="440" y2="360" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 6"/>
+
+      <!-- Caixa de destaque / info card -->
+      <rect x="280" y="50" width="160" height="72" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <rect x="280" y="50" width="160" height="3" rx="1.5" fill="#C61A20"/>
+      <text x="296" y="82" font-family="Barlow Condensed, sans-serif" font-size="24" font-weight="800" fill="white" opacity="0.9">+98%</text>
+      <text x="296" y="102" font-family="Inter, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" letter-spacing="2">SATISFAÇÃO</text>
+
+      <!-- Elemento decorativo — arco -->
+      <path d="M 50 430 A 200 200 0 0 1 430 430" stroke="rgba(198,26,32,0.08)" stroke-width="40" fill="none"/>
+
+      <!-- Eixo X / Y -->
+      <line x1="60" y1="60" x2="60" y2="400" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <line x1="60" y1="400" x2="440" y2="400" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+      <!-- Rótulos eixo X -->
+      <text x="60" y="425" font-family="JetBrains Mono, monospace" font-size="9" fill="rgba(255,255,255,0.25)" text-anchor="middle">JAN</text>
+      <text x="180" y="425" font-family="JetBrains Mono, monospace" font-size="9" fill="rgba(255,255,255,0.25)" text-anchor="middle">MAR</text>
+      <text x="300" y="425" font-family="JetBrains Mono, monospace" font-size="9" fill="rgba(255,255,255,0.25)" text-anchor="middle">JUN</text>
+      <text x="420" y="425" font-family="JetBrains Mono, monospace" font-size="9" fill="rgba(255,255,255,0.25)" text-anchor="middle">DEZ</text>
+    </svg>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div id="trust">
+  <div class="trust-item">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    CRC ativo e regularizado
+  </div>
+  <div class="trust-item">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    +15 anos de experiência
+  </div>
+  <div class="trust-item">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    +500 empresas atendidas
+  </div>
+  <div class="trust-item">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    Atendimento em todo Brasil
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="sobre-left reveal">
+    <div class="sobre-visual-block">
+      <!-- Composição visual -->
+      <svg width="100%" height="100%" viewBox="0 0 480 360" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <rect width="480" height="360" fill="#F3F3F3"/>
+        <!-- Plano de fundo com formas geométricas -->
+        <rect x="0" y="0" width="240" height="360" fill="#EBEBEB"/>
+        <!-- Elemento vermelho diagonal -->
+        <polygon points="0,0 100,0 0,120" fill="#C61A20" opacity="0.08"/>
+        <polygon points="240,360 480,360 480,200" fill="#C61A20" opacity="0.06"/>
+        <!-- Forma central -->
+        <rect x="80" y="80" width="320" height="200" rx="8" fill="white" filter="url(#shadow2)"/>
+        <defs>
+          <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="rgba(0,0,0,0.1)"/>
+          </filter>
+        </defs>
+        <!-- Conteúdo do card -->
+        <rect x="80" y="80" width="320" height="4" rx="2" fill="#C61A20"/>
+        <!-- Mini gráfico de barras -->
+        <rect x="110" y="220" width="24" height="40" rx="2" fill="#EBEBEB"/>
+        <rect x="144" y="200" width="24" height="60" rx="2" fill="#EBEBEB"/>
+        <rect x="178" y="175" width="24" height="85" rx="2" fill="#C61A20" opacity="0.3"/>
+        <rect x="212" y="185" width="24" height="75" rx="2" fill="#EBEBEB"/>
+        <rect x="246" y="150" width="24" height="110" rx="2" fill="#EBEBEB"/>
+        <rect x="280" y="130" width="24" height="130" rx="2" fill="#C61A20"/>
+        <rect x="314" y="155" width="24" height="105" rx="2" fill="#EBEBEB"/>
+        <!-- Texto no card -->
+        <text x="110" y="120" font-family="Barlow Condensed, sans-serif" font-size="13" font-weight="700" fill="#4A4A4A" letter-spacing="2" text-transform="uppercase">CRESCIMENTO ANUAL</text>
+        <text x="110" y="155" font-family="Barlow Condensed, sans-serif" font-size="32" font-weight="800" fill="#252525">+34%</text>
+        <text x="160" y="155" font-family="Inter, sans-serif" font-size="12" fill="#C61A20">↑ vs ano anterior</text>
+      </svg>
+    </div>
+    <div class="sobre-tag">
+      <div class="sobre-tag-num">2009</div>
+      <div class="sobre-tag-label">Fundada em</div>
+    </div>
+  </div>
+
+  <div class="sobre-right">
+    <div class="section-eyebrow reveal">
+      <div class="section-eyebrow-line"></div>
+      <span>Nossa história</span>
+    </div>
+    <h2 class="section-title reveal reveal-delay-1">Sólidos há mais de uma década</h2>
+    <p class="section-body reveal reveal-delay-2">
+      Desde 2009, a Alternativa Contabilidade atende empresas que entendem que contabilidade não é um custo — é estratégia. Nascemos com o propósito de ser a parceira de negócios que os empreendedores precisavam: ágil, especializada e verdadeiramente comprometida com os resultados de cada cliente.
+    </p>
+    <p class="section-body reveal reveal-delay-2">
+      Ao longo dos anos, construímos uma equipe de especialistas que une rigor técnico com visão de negócios, combinando domínio das obrigações fiscais com inteligência estratégica para redução da carga tributária.
+    </p>
+    <div class="sobre-pillars reveal reveal-delay-3">
+      <div class="sobre-pillar">
+        <div class="sobre-pillar-label">Missão</div>
+        <p>Simplificar a contabilidade para que os empresários possam crescer com segurança e clareza.</p>
+      </div>
+      <div class="sobre-pillar">
+        <div class="sobre-pillar-label">Visão</div>
+        <p>Ser reconhecida como a contabilidade mais estratégica do segmento, integrando gestão e tecnologia.</p>
+      </div>
+      <div class="sobre-pillar">
+        <div class="sobre-pillar-label">Compromisso</div>
+        <p>Cada cliente recebe atenção dedicada, prazos cumpridos e transparência em todas as etapas.</p>
+      </div>
+      <div class="sobre-pillar">
+        <div class="sobre-pillar-label">Abrangência</div>
+        <p>Atendemos empresas de todos os portes e segmentos, do MEI à empresa de grande porte.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais">
+  <div class="dif-header">
+    <div>
+      <div class="section-eyebrow reveal" style="--border:rgba(255,255,255,0.08)">
+        <div class="section-eyebrow-line"></div>
+        <span>Por que nos escolher</span>
+      </div>
+      <h2 class="section-title section-title-light reveal reveal-delay-1">O que nos torna diferentes</h2>
+    </div>
+    <div>
+      <p class="dif-intro reveal reveal-delay-2">
+        Não somos um escritório contábil convencional. Somos parceiros de negócio que entendem o contexto, os desafios e os objetivos de cada empresa que atendemos.
+      </p>
+    </div>
+  </div>
+
+  <div class="dif-grid">
+    <div class="dif-item reveal">
+      <div class="dif-num">01</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M20 8c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12S26.627 8 20 8z"/>
+        <path d="M20 14v6l4 2"/>
+      </svg>
+      <div class="dif-item-title">Atendimento humanizado</div>
+      <p class="dif-item-text">Cada cliente tem acesso direto a um contador dedicado. Sem filas, sem chatbots, sem burocracia. Respostas rápidas e tratamento personalizado.</p>
+    </div>
+    <div class="dif-item featured reveal reveal-delay-1">
+      <div class="dif-num">02</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M10 20l7 7 13-14"/>
+      </svg>
+      <div class="dif-item-title">Especialistas contábeis</div>
+      <p class="dif-item-text">Equipe com formação sólida e atualização constante. Nossos profissionais dominam legislação tributária, trabalhista e societária.</p>
+    </div>
+    <div class="dif-item reveal reveal-delay-2">
+      <div class="dif-num">03</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M12 28l4-8 4 4 4-12 4 8"/>
+        <rect x="8" y="8" width="24" height="24" rx="3"/>
+      </svg>
+      <div class="dif-item-title">Planejamento tributário</div>
+      <p class="dif-item-text">Identificamos oportunidades legais de redução de impostos. Muitas empresas pagam mais do que deveriam — nós corrigimos isso.</p>
+    </div>
+    <div class="dif-item reveal reveal-delay-1">
+      <div class="dif-num">04</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M8 20h24M24 14l6 6-6 6"/>
+      </svg>
+      <div class="dif-item-title">Agilidade nos processos</div>
+      <p class="dif-item-text">Utilizamos tecnologia para automatizar rotinas e garantir que suas obrigações fiscais sejam entregues com eficiência e sem atrasos.</p>
+    </div>
+    <div class="dif-item reveal reveal-delay-2">
+      <div class="dif-num">05</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M14 12h12M10 18h20M14 24h12M10 30h20"/>
+      </svg>
+      <div class="dif-item-title">Todos os portes</div>
+      <p class="dif-item-text">Atendemos MEIs, Simples Nacional, Lucro Presumido e Lucro Real. Do autônomo à empresa com dezenas de funcionários.</p>
+    </div>
+    <div class="dif-item reveal reveal-delay-3">
+      <div class="dif-num">06</div>
+      <svg class="dif-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="20" cy="16" r="6"/>
+        <path d="M10 32c0-5.523 4.477-10 10-10s10 4.477 10 10"/>
+      </svg>
+      <div class="dif-item-title">Suporte contínuo</div>
+      <p class="dif-item-text">Disponíveis para tirar dúvidas, orientar decisões e acompanhar o crescimento da sua empresa com visão de longo prazo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="servicos-header">
+    <div class="section-eyebrow reveal" style="justify-content:center;">
+      <div class="section-eyebrow-line"></div>
+      <span>O que fazemos</span>
+    </div>
+    <h2 class="section-title reveal reveal-delay-1" style="text-align:center;">Serviços especializados para o seu negócio</h2>
+  </div>
+
+  <div class="servicos-grid">
+    <div class="servico-card reveal">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      </div>
+      <div class="servico-card-title">Contabilidade Empresarial</div>
+      <p class="servico-card-desc">Escrituração contábil completa, balancetes, balanço patrimonial e DRE com precisão e clareza para tomada de decisão.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Relatórios gerenciais mensais para acompanhar a saúde financeira do negócio</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-1">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      </div>
+      <div class="servico-card-title">Abertura de Empresas</div>
+      <p class="servico-card-desc">Constituição de empresas, escolha do regime tributário ideal e registro nos órgãos competentes de forma rápida e segura.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Análise do melhor enquadramento tributário antes da abertura</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-2">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div class="servico-card-title">Planejamento Tributário</div>
+      <p class="servico-card-desc">Estudo completo da carga tributária com identificação de oportunidades legais para reduzir impostos e aumentar a margem de lucro.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Economia tributária comprovada: média de 20-35% nos impostos pagos</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="servico-card reveal">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div class="servico-card-title">Departamento Pessoal</div>
+      <p class="servico-card-desc">Folha de pagamento, eSocial, admissões, demissões, férias, 13º salário e toda a gestão da relação com seus colaboradores.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Conformidade total com a legislação trabalhista e previdenciária</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-1">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      </div>
+      <div class="servico-card-title">Consultoria Financeira</div>
+      <p class="servico-card-desc">Análise do fluxo de caixa, estrutura de custos, indicadores financeiros e orientação estratégica para melhorar a rentabilidade.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Decisões baseadas em dados reais do seu negócio</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-2">
+      <div class="servico-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div class="servico-card-title">Regularização Fiscal</div>
+      <p class="servico-card-desc">Resolução de pendências fiscais, certidões negativas, parcelamentos de dívidas e recuperação da saúde tributária da empresa.</p>
+      <div class="servico-beneficio">
+        <div class="servico-beneficio-dot"></div>
+        <span>Empresa regularizada abre portas para crédito e novos contratos</span>
+      </div>
+      <a href="#cta-final" class="servico-link">
+        Solicitar proposta
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NÚMEROS -->
+<section id="numeros">
+  <div class="numeros-inner">
+    <div class="numeros-label-col">
+      <div class="section-eyebrow reveal">
+        <div class="section-eyebrow-line"></div>
+        <span>Resultados</span>
+      </div>
+      <h2 class="section-title section-title-light reveal reveal-delay-1">Uma trajetória contada em números</h2>
+      <p class="dif-intro reveal reveal-delay-2" style="margin-top:20px;">
+        Mais de uma década construindo resultados reais para empresas de diferentes setores e portes.
+      </p>
+    </div>
+    <div class="numeros-grid">
+      <div class="numero-item reveal">
+        <div class="numero-value"><span class="counter" data-target="500">0</span><span class="red-accent">+</span></div>
+        <div class="numero-divider"></div>
+        <div class="numero-desc">Empresas atendidas ativamente em nossa carteira</div>
+      </div>
+      <div class="numero-item reveal reveal-delay-1">
+        <div class="numero-value"><span class="counter" data-target="15">0</span><span class="red-accent">+</span></div>
+        <div class="numero-divider"></div>
+        <div class="numero-desc">Anos de experiência no mercado contábil</div>
+      </div>
+      <div class="numero-item reveal reveal-delay-2">
+        <div class="numero-value"><span class="counter" data-target="98">0</span><span class="red-accent">%</span></div>
+        <div class="numero-divider"></div>
+        <div class="numero-desc">Taxa de satisfação entre os clientes</div>
+      </div>
+      <div class="numero-item reveal reveal-delay-3">
+        <div class="numero-value"><span class="counter" data-target="12000">0</span><span class="red-accent">+</span></div>
+        <div class="numero-divider"></div>
+        <div class="numero-desc">Obrigações entregues pontualmente por ano</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO -->
+<section id="processo">
+  <div class="processo-header">
+    <div class="section-eyebrow reveal" style="justify-content:center;">
+      <div class="section-eyebrow-line"></div>
+      <span>Como trabalhamos</span>
+    </div>
+    <h2 class="section-title reveal reveal-delay-1" style="text-align:center;">Do primeiro contato à gestão contínua</h2>
+  </div>
+
+  <div class="processo-steps">
+    <div class="processo-step reveal">
+      <div class="processo-step-num">1</div>
+      <div class="processo-step-title">Diagnóstico</div>
+      <p class="processo-step-text">Analisamos a situação atual da sua empresa: enquadramento tributário, obrigações pendentes, folha de pagamento e oportunidades de melhoria.</p>
+    </div>
+    <div class="processo-step reveal reveal-delay-1">
+      <div class="processo-step-num">2</div>
+      <div class="processo-step-title">Planejamento</div>
+      <p class="processo-step-text">Elaboramos um plano personalizado com o regime tributário mais adequado, cronograma de obrigações e estratégia de redução de carga fiscal.</p>
+    </div>
+    <div class="processo-step reveal reveal-delay-2">
+      <div class="processo-step-num">3</div>
+      <div class="processo-step-title">Implantação</div>
+      <p class="processo-step-text">Executamos a migração com segurança, assumimos todas as obrigações fiscais e garantimos a transição sem riscos para seu negócio.</p>
+    </div>
+    <div class="processo-step reveal reveal-delay-3">
+      <div class="processo-step-num">4</div>
+      <div class="processo-step-title">Acompanhamento</div>
+      <p class="processo-step-text">Monitoramos continuamente, entregamos relatórios mensais e estamos sempre disponíveis para orientar decisões estratégicas.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos">
+  <div class="depoimentos-header">
+    <div>
+      <div class="section-eyebrow reveal">
+        <div class="section-eyebrow-line"></div>
+        <span>Clientes</span>
+      </div>
+      <h2 class="section-title reveal reveal-delay-1">O que dizem quem já trabalha com a gente</h2>
+    </div>
+    <div>
+      <p class="section-body reveal reveal-delay-2" style="margin:0;">
+        Empresários de diferentes setores que encontraram na Alternativa Contabilidade um parceiro de verdade para o crescimento dos seus negócios.
+      </p>
+    </div>
+  </div>
+
+  <div class="depoimentos-grid">
+    <div class="depoimento-card reveal">
+      <div class="depoimento-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+      <div class="depoimento-quote">"</div>
+      <p class="depoimento-text">Depois de anos pagando mais imposto do que deveria, a Alternativa identificou que eu estava no regime tributário errado. A economia foi imediata — mais de R$2.000 por mês.</p>
+      <div class="depoimento-author">
+        <div class="depoimento-avatar">RC</div>
+        <div>
+          <div class="depoimento-author-name">Rafael Carvalho</div>
+          <div class="depoimento-author-role">Comércio varejista, Campinas</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="depoimento-card featured-dep reveal reveal-delay-1">
+      <div class="depoimento-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+      <div class="depoimento-quote" style="color:rgba(198,26,32,0.8)">"</div>
+      <p class="depoimento-text">Abri minha empresa com a ajuda deles em menos de duas semanas. Toda a burocracia foi resolvida sem eu precisar me preocupar com nada. Atendimento excepcional.</p>
+      <div class="depoimento-author">
+        <div class="depoimento-avatar">JM</div>
+        <div>
+          <div class="depoimento-author-name">Juliana Matos</div>
+          <div class="depoimento-author-role">Consultoria de RH, São Paulo</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="depoimento-card reveal reveal-delay-2">
+      <div class="depoimento-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+      <div class="depoimento-quote">"</div>
+      <p class="depoimento-text">Finalmente uma contabilidade que me explica o que está acontecendo com minha empresa. As reuniões mensais com o contador me ajudam a tomar decisões com segurança.</p>
+      <div class="depoimento-author">
+        <div class="depoimento-avatar">TS</div>
+        <div>
+          <div class="depoimento-author-name">Thiago Souza</div>
+          <div class="depoimento-author-role">Prestador de serviços, Curitiba</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-inner">
+    <div>
+      <div class="section-eyebrow reveal">
+        <div class="section-eyebrow-line"></div>
+        <span>Dúvidas frequentes</span>
+      </div>
+      <h2 class="section-title reveal reveal-delay-1">Perguntas que todo empresário faz</h2>
+      <p class="faq-intro-text reveal reveal-delay-2">
+        Reunimos as principais dúvidas de quem está pensando em contratar nossa contabilidade. Se a sua não estiver aqui, entre em contato — vamos responder diretamente.
+      </p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span class="faq-question-text">Como funciona a troca de contador?</span>
+          <span class="faq-toggle">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="faq-answer">
+          O processo é simples e seguro. Após você nos autorizar, cuidamos de todo o processo de migração: solicitamos os documentos ao contador anterior, fazemos a análise da situação atual da empresa e assumimos todas as obrigações sem interrupção. A transição normalmente leva de 5 a 10 dias úteis.
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-1">
+        <div class="faq-question">
+          <span class="faq-question-text">Quanto custa a contabilidade?</span>
+          <span class="faq-toggle">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="faq-answer">
+          O valor é calculado de acordo com o porte da empresa, regime tributário, número de funcionários e serviços necessários. Fazemos um diagnóstico gratuito e enviamos uma proposta personalizada. Nossos preços são competitivos e transparentes, sem taxas escondidas.
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <div class="faq-question">
+          <span class="faq-question-text">Quanto tempo leva para abrir uma empresa?</span>
+          <span class="faq-toggle">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="faq-answer">
+          Depende do tipo de empresa e do município. MEIs podem ser abertos no mesmo dia. Sociedades Limitadas e outros tipos variam entre 5 e 20 dias úteis, dependendo de exigências locais. Orientamos em cada etapa e agilizamos ao máximo.
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-1">
+        <div class="faq-question">
+          <span class="faq-question-text">Atendem empresas de qualquer cidade?</span>
+          <span class="faq-toggle">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="faq-answer">
+          Sim. Atendemos empresas em todo o Brasil de forma 100% remota. Toda a documentação é enviada digitalmente, as reuniões são por videoconferência e a comunicação acontece por canais ágeis como WhatsApp e e-mail.
+        </div>
+      </div>
+
+      <div class="faq-item reveal reveal-delay-2">
+        <div class="faq-question">
+          <span class="faq-question-text">Como funciona o suporte no dia a dia?</span>
+          <span class="faq-toggle">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+        <div class="faq-answer">
+          Cada cliente tem um contador responsável com acesso direto via WhatsApp e e-mail. Respondemos dúvidas em horário comercial com agilidade. Para questões urgentes, garantimos retorno em até 4 horas.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta-final">
+  <svg class="cta-final-bg" viewBox="0 0 1400 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="200" cy="300" r="400" fill="rgba(198,26,32,0.06)"/>
+    <circle cx="1200" cy="300" r="350" fill="rgba(198,26,32,0.05)"/>
+    <line x1="0" y1="600" x2="700" y2="0" stroke="rgba(198,26,32,0.05)" stroke-width="1"/>
+    <line x1="200" y1="600" x2="900" y2="0" stroke="rgba(198,26,32,0.04)" stroke-width="1"/>
+  </svg>
+  <div class="cta-final-inner">
+    <div class="section-eyebrow reveal" style="justify-content:center;">
+      <div class="section-eyebrow-line"></div>
+      <span>Dê o próximo passo</span>
+    </div>
+    <h2 class="cta-final-title reveal reveal-delay-1">Pronto para uma contabilidade mais estratégica?</h2>
+    <p class="cta-final-sub reveal reveal-delay-2">Entre em contato hoje e receba um diagnóstico gratuito da situação tributária e contábil da sua empresa.</p>
+    <div class="cta-final-actions reveal reveal-delay-3">
+      <a href="mailto:contato@alternativacontabilidade.com.br" class="btn-primary">
+        Solicitar Proposta
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://wa.me/5500000000000" class="btn-outline-white">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.125 1.529 5.857L0 24l6.306-1.501A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.021-1.377l-.36-.214-3.732.889.889-3.637-.234-.374A9.8 9.8 0 012.182 12C2.182 6.584 6.584 2.182 12 2.182S21.818 6.584 21.818 12 17.416 21.818 12 21.818z"/></svg>
+        Falar com Especialista
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo-area">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="6" fill="#C61A20"/>
+          <path d="M8 26L14 10L18 20L22 10L28 26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="footer-logo-text">
+          <span>Alternativa</span>
+          <span>Contabilidade</span>
+        </div>
+      </div>
+      <p class="footer-desc">Contabilidade estratégica para empresas que querem crescer com segurança, clareza e eficiência tributária.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Serviços</div>
+      <ul class="footer-links">
+        <li><a href="#servicos">Contabilidade Empresarial</a></li>
+        <li><a href="#servicos">Abertura de Empresas</a></li>
+        <li><a href="#servicos">Planejamento Tributário</a></li>
+        <li><a href="#servicos">Departamento Pessoal</a></li>
+        <li><a href="#servicos">Consultoria Financeira</a></li>
+        <li><a href="#servicos">Regularização Fiscal</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Links rápidos</div>
+      <ul class="footer-links">
+        <li><a href="#sobre">Sobre a empresa</a></li>
+        <li><a href="#diferenciais">Nossos diferenciais</a></li>
+        <li><a href="#processo">Como trabalhamos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#faq">Perguntas frequentes</a></li>
+        <li><a href="#cta-final">Solicitar proposta</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Contato</div>
+      <div class="footer-contact-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Rua das Flores, 123 — Centro<br>Sua Cidade, SP — CEP 00000-000
+      </div>
+      <div class="footer-contact-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5 19.79 19.79 0 0 1 1.61 4.82 2 2 0 0 1 3.59 2.64h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.09a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17.5z"/></svg>
+        (00) 00000-0000
+      </div>
+      <div class="footer-contact-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        contato@alternativacontabilidade.com.br
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-bottom-text">© 2025 Alternativa Contabilidade. Todos os direitos reservados. CRC/SP 000000.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <p class="footer-bottom-text">Desenvolvido por <a href="https://www.linkedin.com/in/gustavo-rosendo-78025b26a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="Desenvolvedor: Gustavo Rosendo Cardoso" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.8;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Gustavo Rosendo Cardoso</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Acoes flutuantes -->
+<div class="right-bottom-icons">
+  <a href="https://wa.me/5500000000000" class="icon-btn whatsapp-btn" aria-label="Falar no WhatsApp" target="_blank">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.125 1.529 5.857L0 24l6.306-1.501A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.021-1.377l-.36-.214-3.732.889.889-3.637-.234-.374A9.8 9.8 0 012.182 12C2.182 6.584 6.584 2.182 12 2.182S21.818 6.584 21.818 12 17.416 21.818 12 21.818z"/></svg>
+  </a>
+
+  <button class="icon-btn top-btn" id="scroll-top" aria-label="Voltar ao topo">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+</div>
+
+</body>
+</html>
